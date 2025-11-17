@@ -1,0 +1,32 @@
+:root{
+  --bg: #f4f4f4;
+  --text: #333;
+  --muted: #666;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background-color:var(--bg);
+  color:var(--text);
+  text-align:center;
+}
+
+header{
+  background:#e6e6e6;
+  padding:3rem 1rem;
+}
+
+.container{max-width:980px;margin:0 auto;padding:24px;text-align:left}
+
+section{margin-bottom:20px}
+
+.site-footer{padding:20px 0;text-align:center;color:var(--muted)}
+
+a{color:#0066cc}
+
+@media (max-width:520px){
+  header{padding:2rem 1rem}
+  .container{padding:16px}
+}
